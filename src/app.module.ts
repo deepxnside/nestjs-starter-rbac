@@ -8,7 +8,7 @@ import { UserModule } from './user/user.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://asd23:iEwFZ3mRy1VX37SR@cluster0.ymkq9k8.mongodb.net/?retryWrites=true&w=majority'),
+    MongooseModule.forRoot('mongodb://'),
       JwtModule.register(
       {
         secret:"secretKey",
